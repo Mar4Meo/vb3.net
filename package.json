@@ -1,8 +1,8 @@
 {
   "name": "ecommerce-website-1",
   "version": "0.1.0",
-  "homepage": "https://github.com/Mar4Meo/vb3.net",
   "private": true,
+  "homepage": "http://Mar4Meo.github.io/vb3.net/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
