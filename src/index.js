@@ -8,7 +8,7 @@ import "remixicon/fonts/remixicon.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import { BrowserRouter, Routes , Route } from 'react-router-dom'
+import { HashRouter, Routes , Route } from 'react-router-dom'
 
 import U1Dr  from "./pages/Dr/u1Dr";
 import AllDr  from "./pages/AllDr/AllDr";
@@ -33,7 +33,7 @@ import Activite3 from "./pages/Activites/Activite3";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path="/" element={<App/>}/>
       <Route path="/dr" element={<U1Dr/>}/>
@@ -61,7 +61,7 @@ ReactDOM.render(
       <Route path="/activite3" element={<Activite3/>}/>
 
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );
